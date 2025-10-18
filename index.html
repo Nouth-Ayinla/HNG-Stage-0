@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Oluwaferanmi Profile Card</title>
+</head>
+<body>
+    <article class="profile-card"  data-testid="test-profile-card">
+        <div class="card-content">
+            <aside class="avatar-section">
+                <figure class="avatar-figure">
+                    <img src="assets/avatar-img.jpg" alt="Oluwaferanmi's Avatar" class="avatar-img" data-testid="test-user-avatar" 
+                    id ="avatarImage">
+                </figure>
+                <div class="upload-container">
+                    <label class="upload-label" for="avatarUpload">
+                        <span class="upload-text">Change Avatar</span>
+                        <input type="file" accept="image/*" id="avatarUpload" class="upload-input" aria-label="Upload  new avatar image">
+                        
+                    </label>
+                </div>
+            </aside>
+            <div class="main-content">
+                <header class="card-header">
+                    <h2 class="user-name" data-testid="test-user-name">Ayinla Oluwaferanmi</h2>
+                    <p class="user-bio"  data-testid="test-user-bio">
+                        I'm a passionate frontend developer with a focus on creating beautiful, functional, and user-friendly web applications.
+                          I specialize in turning ideas into reality through clean code and modern design principles.
+                        </p>
+                        <div>
+                            <span class="sr-only">Current TimeStamp</span>
+                            <time id="currentTime" class="user-time"   data-testid="test-user-time"></time>
+                        </div>
+                </header>
+               
+                <nav class="social-nav" aria-label="Social media links">
+                    <ul class="social-list" data-testid="test-user-social-links">
+                        <li>
+                            <a 
+                                href="https://github.com/Nouth-Ayinla" 
+                                class="social-link"
+                                data-testid="test-user-social-github"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Visit GitHub profile (opens in new tab)"
+                            >
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://www.linkedin.com/in/oluwaferanmi-ayinla-435773277" 
+                                class="social-link"
+                                data-testid="test-user-social-linkedin"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Visit LinkedIn profile (opens in new tab)"
+                            >
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://wa.me/2349029278707" 
+                                class="social-link"
+                                data-testid="test-user-social-whatsapp"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Contact via WhatsApp (opens in new tab)"
+                            >
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="lists-container">
+                    <section class="list-section hobbies">
+                        <h3 class="list-title">
+                         
+                            Hobbies
+                        </h3>
+                        <ul class="list-items" data-testid="test-user-hobbies">
+                            <li class="list-item">Coding</li>
+                            <li class="list-item">Reading Books</li>
+                            <li class="list-item">Listening to Sermons</li>
+                            <li class="list-item">Reading tech blogs</li>
+                        </ul>
+                    </section>
+
+                    <section class="list-section dislikes">
+                        <h3 class="list-title">
+                
+                            Dislikes
+                        </h3>
+                        <ul class="list-items" data-testid="test-user-dislikes">
+                            <li class="list-item">Dishonesty</li>
+                            <li class="list-item">Letting fear dictate choices</li>
+                            <li class="list-item">Shallow validation-seeking</li>
+                            <li class="list-item">Procrastination</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>
