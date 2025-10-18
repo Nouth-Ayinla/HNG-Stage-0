@@ -1,9 +1,9 @@
 # Profile Card Component
 
-A responsive, accessible profile card built with vanilla HTML, CSS, and JavaScript.
+A responsive, accessible profile card built with HTML/CSS/vanilla JS
 
 ## Live Demo
-🔗 [View Live](your-deployment-url-here)
+🔗 [View Live](https://oluwaferanmiprofilecard.vercel.app/)
 
 ## Features
 - Responsive design (mobile, tablet, desktop)
